@@ -9,3 +9,12 @@ Converts seconds into a human-readable string (e.g. `3661 → 1h 1m 1s`).
 
 ## env_loader.py
 Safely loads and validates required environment variables for applications.
+
+## Running Tests
+
+Install development dependencies and run the test suite:
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
