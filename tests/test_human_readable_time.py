@@ -1,6 +1,7 @@
 import pytest
 
-from human_readable_time import human_readable_time
+from tiny_python_utils.human_readable_time import human_readable_time
+
 
 
 def test_seconds_only():

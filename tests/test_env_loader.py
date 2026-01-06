@@ -1,6 +1,7 @@
 import pytest
 
-from env_loader import load_required_env_vars
+from tiny_python_utils.env_loader import load_required_env_vars
+
 
 
 def test_load_required_env_vars_success(monkeypatch):
