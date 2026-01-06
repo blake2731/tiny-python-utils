@@ -1,6 +1,7 @@
 import pytest
 
-from slugify import slugify
+from tiny_python_utils.slugify import slugify
+
 
 
 def test_slugify_basic():

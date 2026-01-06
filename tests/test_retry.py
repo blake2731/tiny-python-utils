@@ -1,6 +1,7 @@
 import pytest
 
-from retry import retry
+from tiny_python_utils.retry import retry
+
 
 
 def test_retry_succeeds_after_failure():
