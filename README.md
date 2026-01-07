@@ -13,6 +13,10 @@ Safely loads and validates required environment variables for applications.
 ## retry.py
 Retries a function call on failure with configurable attempts and delay.
 
+## safe_cast.py
+Safely cast values to a type with a fallback default.
+
+
 ## Running Tests
 
 Install development dependencies and run the test suite:
